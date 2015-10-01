@@ -5,9 +5,9 @@ cache:
   directories:
     - buildout-cache
 env:
-- PLONE_VERSION=4.2
-- PLONE_VERSION=4.3
-- PLONE_VERSION=5.0
+  - PLONE_VERSION=4.2
+  - PLONE_VERSION=4.3
+  - PLONE_VERSION=5.0
 addons:
   apt:
   - python-dev
@@ -15,4 +15,4 @@ addons:
   - libsasl2-dev
   - libssl-dev
 script:
-- false
+  - false
