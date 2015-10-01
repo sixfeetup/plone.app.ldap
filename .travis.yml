@@ -3,8 +3,5 @@ language: python
 addons:
   apt:
   - python-dev
-  - libldap2-dev
-  - libsasl2-dev
-  - libssl-dev
 script:
   - false
