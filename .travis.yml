@@ -1,13 +1,4 @@
-language: python
 sudo: false
-cache:
-  directories:
-    - buildout-cache
-addons:
-  apt:
-  - python-dev
-  - libldap2-dev
-  - libsasl2-dev
-  - libssl-dev
+language: python
 script:
   - false
