@@ -9,12 +9,6 @@ matrix:
   allow_failures:
   - env: PLONE_VERSION=5.0
   fast_finish: true
-addons:
-  apt:
-  - python-dev
-  - libldap2-dev
-  - libsasl2-dev
-  - libssl-dev
 install:
   - sed -ie "s#test-4.3#test-$PLONE_VERSION#" travis.cfg
   - mkdir -p buildout-cache/downloads
