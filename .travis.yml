@@ -1,7 +1,7 @@
-sudo: true
+sudo: false
 language: python
-python: 2.7
-before_install:
-  - sudo apt-get install python-dev libldap2-dev libsasl2-dev libssl-dev
+addons:
+  apt:
+  - python-dev
 script:
   - false
